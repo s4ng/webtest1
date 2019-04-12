@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<HEAD>
+    <title>WEB - test</title>
+    <meta charset=”utf-8″>
+    <link rel="stylesheet" href="style.css">
+</HEAD>
+
+<BODY>
+    <H1><a href="index.html">WEB</a></H1>
+    <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+        <li><a href="4.html" style="color:red">TEST</a></li>
+    </ol>
+    <!-- event 태그! -->
+    <p><input type="button" value="hi" onclick="alert('hi')">
+        <input type="text" onnchange="alert('changed')">
+        <input type='text' onkeydown="alert('key down!')"></p>
+        <img src="images/change1.png" width="200px">
+        <button>Change User</button>
+        <!-- <button id="night">NIGHT</button> -->
+        <input type='button' value="night" onclick="document.querySelector('body').style.backgroundColor = '#333333';
+        document.querySelector('body').style.color = 'white';">
+        <input type='button' value="day" onclick="document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';">
+        <script src="scripts/main.js"></script>
+</BODY>
+
+</html>
